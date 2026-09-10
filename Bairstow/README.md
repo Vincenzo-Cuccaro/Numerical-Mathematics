@@ -1,4 +1,4 @@
-Implementation of Bairstow's algorithms for finding complex conjugates zeros in a real polynomial, together with a benchmark example.
+Implementation of Bairstow's algorithm for finding complex conjugates zeros in a real polynomial, together with a benchmark example.
 
 Variables in baistow function:
 
