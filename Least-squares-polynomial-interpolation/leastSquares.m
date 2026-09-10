@@ -1,4 +1,4 @@
-function [p] = minQuadratiDiscreto(x, x_nodes, y_nodes, n)
+function [p] = leastSquares(x, x_nodes, y_nodes, n)
 
 for i = 1 : length(x_nodes)
     for j = 0 : n
