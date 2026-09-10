@@ -2,7 +2,7 @@ Implementation of Bairstow's algorithm for finding complex conjugates zeros in a
 
 Variables in baistow function:
 
--pol: the coefficient of the polynomial of which two conjugate roots must be found, written from the leading term to the constant term
+-pol: an array containing coefficients of the polynomial of which two conjugate roots must be found, written from the leading term to the constant term
 
 -p, q: first estimate of the coefficients of a degree 2 polynomial which factors pol, in the form x^2+px+q
 
