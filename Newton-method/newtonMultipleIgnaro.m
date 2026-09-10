@@ -1,4 +1,4 @@
-function [xi, n] = newtonMultipleIgnaro(x0, e, f, df)
+function [xi, n] = newtonMultipleUnknownOrder(x0, e, f, df)
 
 g = @(x) f(x) / df(x);
 dg = @(x) (g(x+e) - g(x))/e;
