@@ -6,6 +6,6 @@ Variables in baistow function:
 
 -p, q: first estimate of the coefficients of a degree 2 polynomial which factors pol, in the form x^2+px+q
 
--e: measure of tolerance of estimates of a correct (p,q) pair such that x^2+px+q
+-e: measure of tolerance of estimates of a correct (p,q) pair such that x^2+px+q divides pol
 
 After the algorithm has completed, if returns two complex conjugate numbers wich approximate roots of pol.
