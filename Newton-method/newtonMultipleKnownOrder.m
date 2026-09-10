@@ -1,4 +1,4 @@
-function [xi, n] = newtonMultipleConscio(x0, e, f, df, p)
+function [xi, n] = newtonMultipleKnownOrder(x0, e, f, df, p)
 
 xi = x0 - p*f(x0)/df(x0);
 n = 1;
